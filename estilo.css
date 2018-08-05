@@ -1,0 +1,176 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.capa-btn{
+    text-align: center;
+}
+
+#logo{
+    width: 64px;
+    height: 64px;;
+}
+
+.capa{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('imagens/workspace1.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.capa-descricao{
+    color: #FFFFFF;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: block;
+    text-rendering: optimizeLegibility;
+}
+
+.capa-titulo{
+    font-family: 'Josefin Slab', serif;
+    text-transform: uppercase;
+    font-size: 5.3em;
+    display: inline-block;
+}
+
+.btn-holder{
+    display: block;
+}
+
+.capa-btn{
+    display: inline-block;
+    background: transparent;
+    color: #FFFFFF;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    padding: 10px 15px;
+    font-size: 12px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.2s background linear;
+}
+
+.capa-btn:hover{
+    color: white;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+
+#sobremim{
+    background-color: #f0f0f0;
+}
+
+.titulo-sobre{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 3em;
+    padding: 0 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 50px;
+    font-family: 'Josefin Slab', serif;
+    text-shadow: 3px 6px 0 rgba(50, 50, 50, 0.1);
+    text-transform: uppercase;
+}
+
+.break{
+    width: 100px;
+    background-color: grey;
+}
+
+hr{
+    border-top: 1px solid rgba(0,0,0,.1);
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+
+.row{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+.rounded-circle {
+    border-radius: 50%;
+}
+
+.col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.row h2{
+        font-weight: 400;
+}
+
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+@media (min-width: 992px){
+    .featurette-heading{
+        margin-top: 112px;
+    }
+}
+
+@media (min-width: 640px){
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+.img-fluid{
+    max-width: 100%;
+}
+
+.featurette-divider {
+    margin: 80px 0;
+}
+
+body{
+    margin: 0px;
+}
+
+.bg-custom {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.footer{
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #292424;
+}

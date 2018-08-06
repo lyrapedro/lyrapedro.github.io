@@ -1,20 +1,20 @@
-*{
+* {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
 }
 
-.capa-btn{
+.capa-btn {
     text-align: center;
 }
 
-#logo{
+#logo {
     width: 64px;
     height: 64px;;
 }
 
-.capa{
+.capa {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -30,8 +30,8 @@
 }
 
 
-.capa-descricao{
-    color: #FFFFFF;
+.capa-descricao {
+    color: #fff;
     font-size: 12px;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -39,18 +39,18 @@
     text-rendering: optimizeLegibility;
 }
 
-.capa-titulo{
+.capa-titulo {
     font-family: 'Josefin Slab', serif;
     text-transform: uppercase;
     font-size: 5.3em;
     display: inline-block;
 }
 
-.btn-holder{
+.btn-holder {
     display: block;
 }
 
-.capa-btn{
+.capa-btn {
     display: inline-block;
     background: transparent;
     color: #FFFFFF;
@@ -63,13 +63,13 @@
     transition: 0.2s background linear;
 }
 
-.capa-btn:hover{
+.capa-btn:hover {
     color: white;
     text-decoration: none;
     background-color: rgba(255, 255, 255, 0.15);
 }
 
-.body{
+.body {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
     font-size: 16px;
     font-weight: 400;
@@ -78,11 +78,11 @@
     text-align: left;
 }
 
-#sobremim{
+#sobremim {
     background-color: #f0f0f0;
 }
 
-.titulo-sobre{
+.titulo-sobre {
     padding-top: 30px;
     padding-bottom: 40px;
     text-align: center;
@@ -96,12 +96,12 @@
     text-transform: uppercase;
 }
 
-.break{
+.break {
     width: 100px;
     background-color: grey;
 }
 
-hr{
+hr {
     border-top: 1px solid rgba(0,0,0,.1);
     box-sizing: content-box;
     height: 0;
@@ -109,7 +109,7 @@ hr{
 }
 
 
-.row{
+.row {
     margin-right: -15px;
     margin-left: -15px;
 }
@@ -124,7 +124,7 @@ hr{
     text-align: center;
 }
 
-.row h2{
+.row h2 {
         font-weight: 400;
 }
 
@@ -139,19 +139,19 @@ hr{
     font-weight: 300;
 }
 
-@media (min-width: 992px){
+@media (min-width: 992px) {
     .featurette-heading{
         margin-top: 112px;
     }
 }
 
-@media (min-width: 640px){
+@media (min-width: 640px) {
     .featurette-heading {
         font-size: 50px;
     }
 }
 
-.img-fluid{
+.img-fluid {
     max-width: 100%;
 }
 
@@ -167,7 +167,7 @@ body{
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-.footer{
+.footer {
     bottom: 0;
     width: 100%;
     height: 60px;
@@ -175,12 +175,12 @@ body{
     background-color: #292424;
 }
 
-button>a{
+button>a {
     text-decoration: none;
     color: rgb(68, 68, 68);
 }
 
-button>a:hover{
+button>a:hover {
     text-decoration: none;
     color: #fff;
 }

@@ -174,3 +174,13 @@ body{
     line-height: 60px;
     background-color: #292424;
 }
+
+button>a{
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+}
+
+button>a:hover{
+    text-decoration: none;
+    color: #fff;
+}
